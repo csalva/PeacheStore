@@ -19,6 +19,7 @@ if aplicaciones == 1:
     tipoApp = int(input())
 
     if tipoApp == 1:
+        print("lista")
 
     if tipoApp == 2:
             print("Introduce Nombre Aplicacion")
@@ -27,9 +28,15 @@ if aplicaciones == 1:
             proveedorApp = str(input())
             aplicacionesFree = AplicacionesFree(nombreApp,proveedorApp)
             aplicacionesFree.crearRegistro()
+
     if tipoApp == 3:
+        print("modificar datos")
+
     if tipoApp == 4:
+        print("sumar descarga")
+
     if tipoApp == 5:
+        print("sumar comentario")
 
 elif aplicaciones == 2:
     print("1. Mostrar lista")
@@ -40,6 +47,7 @@ elif aplicaciones == 2:
     tipoAppB = int(input())
 
     if tipoAppB == 1:
+        print("lista")
 
     if tipoAppB == 2:
             print("Introduce Nombre Aplicacion")
@@ -52,6 +60,11 @@ elif aplicaciones == 2:
             aplicacionesB.crearRegistroB()
 
 
-    if tipoAppB == 3:
-    if tipoAppB == 4:
-    if tipoAppB == 5:
+    if tipoApp == 3:
+        print("modificar datos")
+
+    if tipoApp == 4:
+        print("sumar descarga")
+
+    if tipoApp == 5:
+        print("sumar comentario")
