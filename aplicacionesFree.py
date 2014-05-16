@@ -17,3 +17,4 @@ class AplicacionesFree():
         with open('aplicacionesFree.txt', mode='a', encoding='utf-8')as archivo:
             archivo.write(registro)
             print(registro)
+
