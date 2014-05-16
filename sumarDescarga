@@ -1,0 +1,38 @@
+__author__ = 'cristina'
+
+class sumarDescarga():
+    def __init__(self, nameApp):
+        self.nameApp = nameApp
+
+    def getNameApp(self):
+        return slef.nameApp
+
+    def sumarDescargaAppFree(self,nameApp):
+        with open('aplicacionesFree.txt', mode='r', encoding='utf-8')as archivo:
+            for i in archivo:
+                nameApp = i.split('-',);
+                if self.nameApp == nameAppand:
+                    print(nameApp)
+                else:
+                    print("Error de app")
+
+        DescargaApp = (self.nombreApp+"-"+self.proveedorApp+"-"+str(today)+"-"+"0,00"+"-"+"0"+"-"+"0"+"-"+"0"+"-"+"0"+"\n")
+
+        with open('aplicacionesFree.txt', mode='w', encoding='utf-8')as archivo:
+            archivo.write(DescargaApp)
+            print(DescargaApp)
+
+    def sumarDescargaAppB(self):
+        with open('aplicacionesB.txt', mode='r', encoding='utf-8')as archivo:
+            for i in archivo:
+                nameApp = i.split('-',);
+                if self.nameApp == nameAppand:
+                    print(nameApp)
+                else:
+                    print("Error de app")
+
+        DescargaApp = (self.nombreApp+"-"+self.proveedorApp+"-"+str(today)+"-"+"0,00"+"-"+"0"+"-"+"0"+"-"+"0"+"-"+"0"+"\n")
+
+        with open('aplicacionesB.txt', mode='w', encoding='utf-8')as archivo:
+            archivo.write(DescargaApp)
+            print(DescargaApp)
