@@ -8,7 +8,7 @@ def menu():
     print("2.APLICACIONES DE PAGO")
 
 menu()
-aplicaciones = str(input())
+aplicaciones = int(input())
 
 if aplicaciones == 1:
     print("1. Mostrar lista")
