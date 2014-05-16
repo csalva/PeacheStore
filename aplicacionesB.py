@@ -1,5 +1,9 @@
 __author__ = 'cristina'
 
+import time
+from datetime import date
+today = date.today()
+
 class AplicacionesB():
     def __init__(self, nombreAppB,proveedorAppB,precioAppB):
         self.nombreAppB = nombreAppB
@@ -16,8 +20,8 @@ class AplicacionesB():
         return self.precioAppB
 
     def crearRegistroB(self):
-        registroAppB = (self.nombreAppB+"-"+self.proveedorAppB+"-"+date+"-"+self.precioAppB+"0"+"0"+"0"+"0"+"\n")
+        registroAppB = (self.nombreAppB+"-"+self.proveedorAppB+"-"+str(today)+"-"+self.precioAppB+"0"+"-"+"0"+"-"+"0"+"-"+"0"+"\n")
 
         with open('aplicacionesB.txt', mode='a', encoding='utf-8')as archivo:
-            archivo.write(registro)
-            print(registro)
+            archivo.write(registroAppB)
+            print(registroAppB)
