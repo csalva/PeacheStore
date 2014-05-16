@@ -11,6 +11,7 @@ class AplicacionesFree():
     def getProveedorApp(self):
         return self.proveedorApp
 
+    def crearRegistro(self):
         registroApp = (self.nombreApp+"-"+self.proveedorApp+"-"+date+"-"+"0,00"+"0"+"0"+"0"+"0"+"\n")
 
         with open('aplicacionesFree.txt', mode='a', encoding='utf-8')as archivo:
