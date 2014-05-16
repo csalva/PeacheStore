@@ -18,6 +18,6 @@ class AplicacionesB():
     def crearRegistroB(self):
         registroAppB = (self.nombreAppB+"-"+self.proveedorAppB+"-"+date+"-"+self.precioAppB+"0"+"0"+"0"+"0"+"\n")
 
-        with open('aplicacionesFree.txt', mode='a', encoding='utf-8')as archivo:
+        with open('aplicacionesB.txt', mode='a', encoding='utf-8')as archivo:
             archivo.write(registro)
             print(registro)
