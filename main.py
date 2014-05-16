@@ -10,12 +10,15 @@ def menu():
 menu()
 aplicaciones = str(input())
 
-if aplicaciones == 1
+if aplicaciones == 1:
     print("1. Mostrar lista")
     print("2. añadir nueva aplicacion")
     print("3. modificar los datos de identificacion de un aplicacion")
     print("4. sumar una descarga")
     print("5. sumar un comentario")
+    tipoApp = int(input())
+
+    if tipoApp == 1:
 
     if tipoApp == 2:
             print("Introduce Nombre Aplicacion")
@@ -24,11 +27,31 @@ if aplicaciones == 1
             proveedorApp = str(input())
             aplicacionesFree = AplicacionesFree(nombreApp,proveedorApp)
             aplicacionesFree.crearRegistro()
+    if tipoApp == 3:
+    if tipoApp == 4:
+    if tipoApp == 5:
 
-
-elif aplicaciones == 2
+elif aplicaciones == 2:
     print("1. Mostrar lista")
     print("2. añadir nueva aplicacion")
     print("3. modificar los datos de identificacion de un aplicacion")
     print("4. sumar una descarga")
     print("5. sumar un comentario")
+    tipoAppB = int(input())
+
+    if tipoAppB == 1:
+
+    if tipoAppB == 2:
+            print("Introduce Nombre Aplicacion")
+            nombreAppB = str(input())
+            print("proveedor")
+            proveedorAppB = str(input())
+            print("Indica el precio de la aplicacion: ejemplo 0,95")
+            precioAppB = str(input())
+            aplicacionesB = AplicacionesB(nombreAppB,proveedorAppB,precioAppB)
+            aplicacionesB.crearRegistroB()
+
+
+    if tipoAppB == 3:
+    if tipoAppB == 4:
+    if tipoAppB == 5:
