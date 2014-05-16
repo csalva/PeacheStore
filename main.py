@@ -34,6 +34,8 @@ if aplicaciones == 1:
 
     if tipoApp == 4:
         print("para sumar descarga introduce nombre de la aplicacion")
+        nameApp = str(input())
+        sumarDescarga =
         print("Descarga finalizada (+1)")
 
     if tipoApp == 5:
