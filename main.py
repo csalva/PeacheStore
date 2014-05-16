@@ -33,10 +33,12 @@ if aplicaciones == 1:
         print("modificar datos")
 
     if tipoApp == 4:
-        print("sumar descarga")
+        print("para sumar descarga introduce nombre de la aplicacion")
+        print("Descarga finalizada (+1)")
 
     if tipoApp == 5:
-        print("sumar comentario")
+        print("para sumar un comentario introduce nombre de la aplicacion")
+        print("Comentario registrado (+1)")
 
 elif aplicaciones == 2:
     print("1. Mostrar lista")
@@ -64,7 +66,9 @@ elif aplicaciones == 2:
         print("modificar datos")
 
     if tipoApp == 4:
-        print("sumar descarga")
+        print("para sumar descarga introduce nombre de la aplicacion")
+        print("Descarga finalizada (+1)")
 
     if tipoApp == 5:
-        print("sumar comentario")
+        print("para sumar un comentario introduce nombre de la aplicacion")
+        print("Comentario registrado (+1)")
